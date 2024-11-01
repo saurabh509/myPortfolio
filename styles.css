@@ -1,0 +1,41 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+h2 {
+    color: #343a40;
+}
+
+.jumbotron {
+    background-color: #007bff;
+    color: white;
+}
+
+.card {
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.list-group-item {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    margin-bottom: 5px;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
